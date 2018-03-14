@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>登陆</title>
+</head>
+<body>
+	<form action="LoginServlet" method="post">	
+		<table>
+			<caption>用户登陆信息</caption>
+			<tr>
+				<td>用户名：<input name="username" type="text" size="20"/></td>
+			</tr>
+			<tr>
+				<td>密码：<input name="password" type="password" size="21"/></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="登陆"/>
+					<input type="reset" value="重置"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
